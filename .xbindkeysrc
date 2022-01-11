@@ -71,7 +71,7 @@
 "xte 'keydown Control_L' 'key c' 'keyup Control_L'"
 b:8
 
-This is for pasting:
+# This is for pasting:
 
 "xte 'keydown Control_L' 'key v' 'keyup Control_L'"
 b:9
