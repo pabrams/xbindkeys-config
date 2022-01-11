@@ -4,7 +4,12 @@
   "description": "See README.md",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "depXbindkeys": "cp .xbindkeysrc ~/.xbindkeysrc",
+    "depRofi": "cp config.rasi ~/.config/rofi/config.rasi",
+    "depZsh": "cp .zshrc ~/.zshrc",
+    "depOhmyzsh": "cp .oh-my-zsh.sh  ~/.oh-my-zsh/oh-my-zsh.sh",
+    "deploy": "npm run depXbindkeys && npm run depRofi && npm run depZsh && npm run depOhmyzsh",
+    "test": "source .zshrc"
   },
   "repository": {
     "type": "git",
@@ -12,7 +17,11 @@
   },
   "keywords": [
     "xbindkeys",
-    "config"
+    "rofi",
+    "zsh",
+    "oh-my-zsh",
+    "config",
+    "configuration"
   ],
   "author": "Paul Abrams",
   "license": "MIT",
