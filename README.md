@@ -1,3 +1,9 @@
-# Xbindkeys-config
+# Config files
 
-This contains my key bindings for use with xbindkeys.
+This persists my config files and/or dot files.
+
+## .xbindkeysrc
+
+My key bindings for use with xbindkeys.
+
+It goes at ~/.xbindkeysrc

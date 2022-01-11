@@ -65,6 +65,17 @@
 #"rxvt"
 #  Control + b:2 + Release
 
+## Copy/paste with chords ^L,c an ^L,v
+# This is for copying:
+
+"xte 'keydown Control_L' 'key c' 'keyup Control_L'"
+b:8
+
+This is for pasting:
+
+"xte 'keydown Control_L' 'key v' 'keyup Control_L'"
+b:9
+
 ##################################
 # End of xbindkeys configuration #
 ##################################
