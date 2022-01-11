@@ -2,6 +2,10 @@
 
 This persists my config files and/or dot files.
 
+## Deploy
+
+Be sure to `npm run deploy` before starting.
+
 ## .xbindkeysrc
 
 My key bindings for use with xbindkeys.
