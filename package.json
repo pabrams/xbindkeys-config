@@ -1,0 +1,23 @@
+{
+  "name": "xbindkeys-config",
+  "version": "1.0.0",
+  "description": "See README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabrams/xbindkeys-config.git"
+  },
+  "keywords": [
+    "xbindkeys",
+    "config"
+  ],
+  "author": "Paul Abrams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pabrams/xbindkeys-config/issues"
+  },
+  "homepage": "https://github.com/pabrams/xbindkeys-config#readme"
+}
