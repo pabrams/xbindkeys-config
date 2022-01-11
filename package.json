@@ -8,6 +8,7 @@
     "depRofi": "cp config.rasi ~/.config/rofi/config.rasi",
     "depZsh": "cp .zshrc ~/.zshrc",
     "depOhmyzsh": "cp .oh-my-zsh.sh  ~/.oh-my-zsh/oh-my-zsh.sh",
+    "depXkb": "cp xkbcomp.xkb ~/.Xkeymap",
     "deploy": "npm run depXbindkeys && npm run depRofi && npm run depZsh && npm run depOhmyzsh",
     "test": "source .zshrc"
   },
