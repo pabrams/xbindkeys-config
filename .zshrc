@@ -3,7 +3,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/paulabrams/.oh-my-zsh"
+export ZSH="/home/me/.oh-my-zsh"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -20,7 +20,7 @@ ZSH_THEME="random"
 # ZSH_THEME="frisk"
 # ZSH_THEME="xiong-chiamiov"
 
-export PATH=$HOME/bin:$PATH:/home/paulabrams/.cargo/bin
+export PATH=$HOME/bin:$PATH:/home/me/.cargo/bin
 
 export PATH="$PATH:/snap/bin/"
 export LS_COLORS="$(vivid generate molokai)"
@@ -42,7 +42,7 @@ POWERLINE_DETECT_SSH="true"
 
 eval "$(starship init zsh)"
 
-source /home/paulabrams/.config/broot/launcher/bash/br
+source /home/me/.config/broot/launcher/bash/br
 
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
